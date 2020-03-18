@@ -1,0 +1,105 @@
+bootstrap notes
+bootstrapn layout 
+container vs container-fluid
+container : it takes a fixed width 
+container-fluid : it takes a full width 
+ In container we have a css 
+width 100%
+padding right and left 15px 
+margin right and left auto
+
+
+Grid system
+rows : in grid 1 row have 12 columns
+ In rows we have a css
+display flex
+flex-wrap wrap
+margin right and left -15px 
+
+coumns : wevcan devide a 12 in i column 
+column types
+sm- small >=576
+lg- large >=992
+md- medium >= 768
+xl- extra large >=1200
+col- extra small <576
+
+width auto
+if we give 1 div to col-md-6 and we have 3 divs
+ so remaing 2 div adjust ourselves according to width
+ so that's width is auto width
+
+column in orders
+order-first: jis div ko order-first dowo start ma ajata h uska order zero ho jata h or baki sbka order same rhte hn
+order-last: jis div ko order last ki property do wo sb se last ma chla jata h
+order-1: we can an order in numbers but we should give an order to all divs
+order-md-3: in this order we cahnge the orderof a div in medium size screen
+
+column breaks 
+w-010: in this class we can switch the div to next line by givving the class w-100 to before the div 
+
+offset columns
+in column we have 2 divs which have col-md-3 its total 6 columns and 6 column have not set so
+ when we give the offset-md-6 wo both divs have margin and they goes to the corner in center 
+we have 6 column space how much we give the offset it set to that margin.
+
+nesting columns
+we can make a row in a column
+
+media objects
+in this we can create a media object in media object we have an image and heading and text that are display flex
+to chane the position of an image we can give a class align-self which have property center end and by default it's property is start
+class="align-self-center"
+to reorder the image we can paste the image after the media body
+to make a list in a media object we use ul to  a class list-unstyle and then we use all media 
+object classes using li
+nesting media objects to give a media object in parent media object before closing tag of media
+ body we put a new media object so it is nesting media pbject
+
+typography 
+headings we use heading tag and also use class="h1" in paragraph to give a heading effect
+to light the color we use class text-muted
+lead :to make a paragraph better we use lead classs which have css font-size and font-weight
+mark: to highlight the word
+small: to small the text
+initialism: to give a abrivation in hover state we give class initialism in abbr tag
+blockquote: it is used for blockquotes
+blockquote-footer : we give the name of the author or a writter to give this classin footer tag we give this class
+
+table 
+to make a table add class table
+responsive-table: to make a reponsive table we can add a class table-responsive and for caption  we add csption tag in table
+table-striped : to give light color we add table-striped
+
+vertical alignment
+baseline :it is on the default position
+
+
+
+Bootstrap Classess 
+text-center : it center the text
+img-thumbnail : it gives the bordder to the img
+mr-3: to give a margin to an imagenwe give mr-3 and it's limit is 1to5
+align-self-center: to align the image we use this class
+img-fluid: to make image responsive
+float-left: to give the img alignment 
+text-left: to give the parent div to align the children div
+text-jstify: to align left and rigt the text
+text-upercase: to show the all words capital
+text-decoration-none : to remove text-decoration
+mb-1: m= margin, b= bottom it's limit is 1 to 5
+ 1= .5rem 5= 3rem irem = 16px
+d-inline-block
+fixed-top: to give fix position from top
+sticky-top: to give sticky position from top
+shadow-none: to remove the shadow 
+shadow-sm: to give the small shadow 
+shadow: to give the medium shadow 
+shadow-lg: to give the large shadow 
+fed show : class use for animations
+btn-group-verticle: to verticle the buttons group
+btn-group-lg : to make large button group
+btn-toolbar : to make buttons toolbar
+card-img-top : it means img is placed on the top of the card
+
+
